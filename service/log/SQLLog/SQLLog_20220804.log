@@ -1,0 +1,208 @@
+【2022-08-04 16:02:04.644】【SQL】 SELECT * FROM dbo.t_user WHERE username = 'admin'
+【2022-08-04 16:02:41.947】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')
+【2022-08-04 16:02:41.947】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_user')
+【2022-08-04 16:02:41.947】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')
+【2022-08-04 16:02:41.947】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')
+【2022-08-04 16:02:45.588】【SQL】 SELECT * FROM dbo.t_user WHERE username = 'admin'
+【2022-08-04 16:02:45.741】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 16:02:45.743】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:02:45.743】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 16:02:45.934】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:02:47.055】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:02:48.057】【SQL】 UPDATE dbo.t_MusicQueue SET already = 'true' WHERE ID = '33'
+【2022-08-04 16:03:17.745】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 16:03:17.752】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:03:17.757】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 16:03:17.985】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:03:19.080】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 16:05:24.465】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 16:05:24.468】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:05:24.475】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 16:05:24.688】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:05:25.556】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 16:10:15.453】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 16:10:15.464】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 16:10:15.463】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:10:15.703】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:10:16.480】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 16:10:39.996】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 16:10:40.000】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:10:40.005】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 16:10:40.211】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:10:40.945】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 16:11:28.823】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 16:11:28.828】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:11:28.828】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 16:11:29.069】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:11:29.716】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 16:14:54.645】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 16:14:54.651】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:14:54.656】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 16:14:54.898】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:14:55.694】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 16:16:22.720】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 16:16:22.729】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:16:22.730】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 16:16:22.980】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 16:16:24.076】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 20:01:56.672】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_user')
+【2022-08-04 20:01:56.672】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')
+【2022-08-04 20:01:56.672】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')
+【2022-08-04 20:01:56.672】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')
+【2022-08-04 20:02:35.607】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:02:35.631】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:02:35.636】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:02:35.980】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:02:36.639】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 20:05:05.586】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:05:05.592】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:05:05.594】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:05:05.899】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:05:07.124】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:05:11.364】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:05:11.368】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:05:11.374】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:05:11.733】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:05:12.503】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 20:06:38.039】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:06:38.045】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:06:38.046】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:06:38.328】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:07:30.396】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:07:30.405】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:07:30.407】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:07:30.667】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:07:33.690】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:07:33.695】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:07:33.695】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:07:33.997】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:07:34.591】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 20:08:00.124】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:08:00.133】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:08:00.135】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:08:00.398】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:10:05.769】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:10:05.775】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:10:05.781】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:10:06.116】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:10:06.546】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 20:11:51.901】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:11:51.906】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:11:51.911】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:11:52.282】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:11:54.498】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 20:26:04.574】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:26:04.577】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:26:04.580】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:26:04.905】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:26:05.878】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 20:32:13.497】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:32:13.502】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:32:13.504】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:32:13.761】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:32:20.392】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:32:20.397】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:32:20.398】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:32:20.623】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:32:21.920】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 20:38:00.075】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_user')
+【2022-08-04 20:38:00.075】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')
+【2022-08-04 20:38:00.075】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')
+【2022-08-04 20:38:00.075】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')
+【2022-08-04 20:38:00.536】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:38:05.975】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:38:05.983】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:38:05.984】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:38:06.197】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:38:06.835】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 20:39:01.958】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:39:01.964】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:39:01.966】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:39:02.204】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:40:17.926】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')
+【2022-08-04 20:40:17.926】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')
+【2022-08-04 20:40:17.926】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_user')
+【2022-08-04 20:40:17.926】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')
+【2022-08-04 20:40:22.682】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:40:22.699】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:40:22.703】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:40:23.060】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:40:24.142】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 20:42:09.849】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:42:09.854】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:42:09.859】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:42:13.047】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:42:13.047】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:42:13.050】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:42:13.240】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:42:46.430】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:42:46.439】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:42:46.441】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:42:46.652】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:46:32.265】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_user')
+【2022-08-04 20:46:32.265】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')
+【2022-08-04 20:46:32.265】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')
+【2022-08-04 20:46:32.265】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')
+【2022-08-04 20:46:32.963】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:46:32.963】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:46:32.963】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:46:32.963】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:46:41.957】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:46:41.968】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:46:41.968】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:46:42.259】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:46:42.649】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 20:47:08.507】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:47:08.512】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:47:08.515】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:47:08.812】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:47:20.756】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 20:47:20.767】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:47:20.769】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 20:47:21.038】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 20:47:21.542】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 21:18:27.051】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 21:18:27.055】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:18:27.059】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 21:18:27.351】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:18:28.266】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 21:20:08.267】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 21:20:08.272】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:20:08.273】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 21:20:08.555】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:20:41.022】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 21:20:41.027】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:20:41.029】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 21:20:41.224】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:20:54.851】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 21:20:54.857】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:20:54.858】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 21:20:55.081】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:21:00.040】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 21:21:00.045】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:21:00.049】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 21:21:00.349】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:21:00.770】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 21:22:07.016】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 21:22:07.022】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:22:07.027】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 21:22:07.290】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:22:09.580】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 21:22:09.580】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:22:09.587】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 21:22:09.881】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:22:10.132】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 21:23:51.026】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 21:23:51.036】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:23:51.038】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 21:23:51.307】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:23:52.563】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 21:23:52.566】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:23:52.566】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 21:23:52.862】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:23:53.060】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()
+【2022-08-04 21:26:00.147】【SQL】 SELECT username, UID FROM dbo.t_user
+【2022-08-04 21:26:00.151】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:26:00.158】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '1' ORDER BY timestamp DESC
+【2022-08-04 21:26:00.560】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-04 21:26:01.001】【SQL】 SELECT TOP 1 * FROM dbo.t_HotMusic WHERE date = '2022/08/04' ORDER BY newid()

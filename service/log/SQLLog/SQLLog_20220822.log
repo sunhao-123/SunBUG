@@ -1,0 +1,77 @@
+【2022-08-22 12:49:30.434】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_code')
+【2022-08-22 12:49:30.434】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_user')
+【2022-08-22 12:49:30.434】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_room')
+【2022-08-22 12:49:30.434】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')
+【2022-08-22 12:49:30.434】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')
+【2022-08-22 12:49:30.434】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')
+【2022-08-22 12:49:55.479】【SQL】 SELECT * FROM dbo.t_user WHERE username = '孙同学'
+【2022-08-22 12:49:55.668】【SQL】 SELECT username, head, sex, signature FROM dbo.t_user WHERE "UID" = '2'
+【2022-08-22 12:49:55.690】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-08-22 12:49:55.702】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-22 12:49:55.704】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-08-22 12:51:54.001】【SQL】 SELECT username, head, sex, signature FROM dbo.t_user WHERE "UID" = '2'
+【2022-08-22 12:51:54.024】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-08-22 12:51:54.030】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-22 12:51:54.038】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-08-22 12:54:09.398】【SQL】 SELECT username, head, sex, signature FROM dbo.t_user WHERE "UID" = '2'
+【2022-08-22 12:54:09.416】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-08-22 12:54:09.421】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-22 12:54:09.425】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-08-22 12:56:06.192】【SQL】 SELECT username, head, sex, signature FROM dbo.t_user WHERE "UID" = '2'
+【2022-08-22 12:56:06.215】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-08-22 12:56:06.220】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-22 12:56:06.226】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-08-22 12:57:02.075】【SQL】 SELECT username, head, sex, signature FROM dbo.t_user WHERE "UID" = '2'
+【2022-08-22 12:57:02.092】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-08-22 12:57:02.099】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-22 12:57:02.105】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-08-22 12:58:11.550】【SQL】 SELECT username, head, sex, signature FROM dbo.t_user WHERE "UID" = '2'
+【2022-08-22 12:58:11.576】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-08-22 12:58:11.584】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-22 12:58:11.587】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-08-22 12:58:51.441】【SQL】 SELECT username, head, sex, signature FROM dbo.t_user WHERE "UID" = '2'
+【2022-08-22 12:58:51.460】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-08-22 12:58:51.470】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-22 12:58:51.475】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-08-22 13:16:41.601】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_user')
+【2022-08-22 13:16:41.601】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_room')
+【2022-08-22 13:16:41.601】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')
+【2022-08-22 13:16:41.601】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_code')
+【2022-08-22 13:16:41.601】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')
+【2022-08-22 13:16:41.601】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')
+【2022-08-22 13:16:41.601】【SQL】 select count(*) from sysobjects where id = object_id('dbo.musicBlackList')
+【2022-08-22 13:16:41.656】【SQL】 create table dbo.musicBlackList(ID           int               not null    identity(1,1)    primary key,musicrid     nvarchar(20)      not null,room         nvarchar(100)     not null)
+【2022-08-22 13:17:42.281】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_user')
+【2022-08-22 13:17:42.281】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_code')
+【2022-08-22 13:17:42.281】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')
+【2022-08-22 13:17:42.281】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_room')
+【2022-08-22 13:17:42.281】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')
+【2022-08-22 13:17:42.281】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')
+【2022-08-22 13:17:42.281】【SQL】 select count(*) from sysobjects where id = object_id('dbo.musicBlackList')
+【2022-08-22 16:42:04.413】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_user')
+【2022-08-22 16:42:04.413】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_code')
+【2022-08-22 16:42:04.413】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')
+【2022-08-22 16:42:04.413】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_room')
+【2022-08-22 16:42:04.413】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')
+【2022-08-22 16:42:04.413】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')
+【2022-08-22 16:42:04.414】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_musicBlackList')
+【2022-08-22 16:42:04.475】【SQL】 create table dbo.t_musicBlackList(ID           int               not null    identity(1,1)    primary key,musicrid     nvarchar(20)      not null,room         nvarchar(100)     not null,pic120       nvarchar(200)     not null,name         nvarchar(50)      not null,artist       nvarchar(20)      not null,album        nvarchar(100)     not null)
+【2022-08-22 16:42:08.043】【SQL】 SELECT username, head, sex, signature FROM dbo.t_user WHERE "UID" = '2'
+【2022-08-22 16:42:08.067】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-08-22 16:42:08.077】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-22 16:42:08.081】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-08-22 16:42:33.444】【SQL】 SELECT username, head, sex, signature FROM dbo.t_user WHERE "UID" = '2'
+【2022-08-22 16:42:33.464】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-08-22 16:42:33.475】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-22 16:42:33.475】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-08-22 16:43:19.825】【SQL】 SELECT username, head, sex, signature FROM dbo.t_user WHERE "UID" = '2'
+【2022-08-22 16:43:19.846】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-08-22 16:43:19.856】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false'
+【2022-08-22 16:43:19.859】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-08-22 18:54:41.583】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_user')
+【2022-08-22 18:54:41.583】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_code')
+【2022-08-22 18:54:41.583】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')
+【2022-08-22 18:54:41.583】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_room')
+【2022-08-22 18:54:41.583】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')
+【2022-08-22 18:54:41.583】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')
+【2022-08-22 18:54:41.583】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_musicBlackList')

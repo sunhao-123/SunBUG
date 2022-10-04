@@ -1,0 +1,110 @@
+【2022-09-30 17:37:29.368】【INFO】   DB_config 配置文件读取成功！
+【2022-09-30 17:37:29.407】【INFO】   数据库连接成功！
+【2022-09-30 17:37:29.481】【INFO】   t_HotMusic 数据表创建成功！
+【2022-09-30 17:37:29.481】【INFO】   t_room 数据表创建成功！
+【2022-09-30 17:37:29.481】【INFO】   t_code 数据表创建成功！
+【2022-09-30 17:37:29.481】【INFO】   t_user 数据表创建成功！
+【2022-09-30 17:37:29.481】【INFO】   t_MusicQueue 数据表创建成功！
+【2022-09-30 17:37:29.481】【INFO】   t_musicBlackList 数据表创建成功！
+【2022-09-30 17:37:29.484】【INFO】   t_LikeMusic 数据表创建成功！
+【2022-09-30 17:37:29.484】【INFO】   t_historyMsg 数据表创建成功！
+【2022-09-30 17:37:29.486】【INFO】   音乐大厅创建成功！
+【2022-09-30 17:37:29.487】【INFO】   基础管理员账号创建成功！
+【2022-09-30 17:38:02.576】【INFO】   DB_config 配置文件读取成功！
+【2022-09-30 17:38:02.611】【INFO】   数据库连接成功！
+【2022-09-30 17:38:02.663】【INFO】   t_room 表已存在！
+【2022-09-30 17:38:02.663】【INFO】   t_code 表已存在！
+【2022-09-30 17:38:02.663】【INFO】   t_user 表已存在！
+【2022-09-30 17:38:02.664】【INFO】   t_HotMusic 表已存在！
+【2022-09-30 17:38:02.664】【INFO】   t_MusicQueue 表已存在！
+【2022-09-30 17:38:02.664】【INFO】   t_LikeMusic 表已存在！
+【2022-09-30 17:38:02.664】【INFO】   t_musicBlackList 表已存在！
+【2022-09-30 17:38:02.664】【INFO】   t_historyMsg 表已存在！
+【2022-09-30 17:39:36.848】【INFO】   DB_config 配置文件读取成功！
+【2022-09-30 17:39:36.883】【INFO】   数据库连接成功！
+【2022-09-30 17:39:36.935】【INFO】   t_room 表已存在！
+【2022-09-30 17:39:36.935】【INFO】   t_code 表已存在！
+【2022-09-30 17:39:36.935】【INFO】   t_user 表已存在！
+【2022-09-30 17:39:36.935】【INFO】   t_HotMusic 表已存在！
+【2022-09-30 17:39:36.935】【INFO】   t_MusicQueue 表已存在！
+【2022-09-30 17:39:36.935】【INFO】   t_LikeMusic 表已存在！
+【2022-09-30 17:39:36.935】【INFO】   t_musicBlackList 表已存在！
+【2022-09-30 17:39:36.936】【INFO】   t_historyMsg 表已存在！
+【2022-09-30 17:43:11.666】【INFO】   DB_config 配置文件读取成功！
+【2022-09-30 17:43:11.700】【INFO】   数据库连接成功！
+【2022-09-30 17:43:11.753】【INFO】   t_room 表已存在！
+【2022-09-30 17:43:11.753】【INFO】   t_user 表已存在！
+【2022-09-30 17:43:11.753】【INFO】   t_code 表已存在！
+【2022-09-30 17:43:11.753】【INFO】   t_HotMusic 表已存在！
+【2022-09-30 17:43:11.753】【INFO】   t_MusicQueue 表已存在！
+【2022-09-30 17:43:11.753】【INFO】   t_musicBlackList 表已存在！
+【2022-09-30 17:43:11.753】【INFO】   t_LikeMusic 表已存在！
+【2022-09-30 17:43:11.753】【INFO】   t_historyMsg 表已存在！
+【2022-09-30 18:35:37.739】【INFO】   DB_config 配置文件读取成功！
+【2022-09-30 18:35:37.773】【INFO】   数据库连接成功！
+【2022-09-30 18:35:37.826】【INFO】   t_room 表已存在！
+【2022-09-30 18:35:37.826】【INFO】   t_code 表已存在！
+【2022-09-30 18:35:37.826】【INFO】   t_user 表已存在！
+【2022-09-30 18:35:37.826】【INFO】   t_HotMusic 表已存在！
+【2022-09-30 18:35:37.826】【INFO】   t_MusicQueue 表已存在！
+【2022-09-30 18:35:37.826】【INFO】   t_musicBlackList 表已存在！
+【2022-09-30 18:35:37.826】【INFO】   t_LikeMusic 表已存在！
+【2022-09-30 18:35:37.826】【INFO】   t_historyMsg 表已存在！
+【2022-09-30 18:37:18.130】【INFO】   DB_config 配置文件读取成功！
+【2022-09-30 18:37:18.165】【INFO】   数据库连接成功！
+【2022-09-30 18:37:18.217】【INFO】   t_user 表已存在！
+【2022-09-30 18:37:18.217】【INFO】   t_code 表已存在！
+【2022-09-30 18:37:18.217】【INFO】   t_room 表已存在！
+【2022-09-30 18:37:18.217】【INFO】   t_HotMusic 表已存在！
+【2022-09-30 18:37:18.217】【INFO】   t_MusicQueue 表已存在！
+【2022-09-30 18:37:18.217】【INFO】   t_LikeMusic 表已存在！
+【2022-09-30 18:37:18.217】【INFO】   t_musicBlackList 表已存在！
+【2022-09-30 18:37:18.217】【INFO】   t_historyMsg 表已存在！
+【2022-09-30 18:37:58.901】【INFO】   DB_config 配置文件读取成功！
+【2022-09-30 18:37:58.937】【INFO】   数据库连接成功！
+【2022-09-30 18:37:58.990】【INFO】   t_user 表已存在！
+【2022-09-30 18:37:58.990】【INFO】   t_MusicQueue 表已存在！
+【2022-09-30 18:37:58.990】【INFO】   t_room 表已存在！
+【2022-09-30 18:37:58.990】【INFO】   t_HotMusic 表已存在！
+【2022-09-30 18:37:58.990】【INFO】   t_code 表已存在！
+【2022-09-30 18:37:58.990】【INFO】   t_musicBlackList 表已存在！
+【2022-09-30 18:37:58.990】【INFO】   t_LikeMusic 表已存在！
+【2022-09-30 18:37:58.990】【INFO】   t_historyMsg 表已存在！
+【2022-09-30 18:47:30.311】【INFO】   DB_config 配置文件读取成功！
+【2022-09-30 18:47:30.345】【INFO】   数据库连接成功！
+【2022-09-30 18:47:30.396】【INFO】   t_user 表已存在！
+【2022-09-30 18:47:30.397】【INFO】   t_room 表已存在！
+【2022-09-30 18:47:30.397】【INFO】   t_code 表已存在！
+【2022-09-30 18:47:30.397】【INFO】   t_MusicQueue 表已存在！
+【2022-09-30 18:47:30.397】【INFO】   t_HotMusic 表已存在！
+【2022-09-30 18:47:30.397】【INFO】   t_LikeMusic 表已存在！
+【2022-09-30 18:47:30.397】【INFO】   t_musicBlackList 表已存在！
+【2022-09-30 18:47:30.397】【INFO】   t_historyMsg 表已存在！
+【2022-09-30 21:29:45.473】【INFO】   DB_config 配置文件读取成功！
+【2022-09-30 21:29:45.507】【INFO】   数据库连接成功！
+【2022-09-30 21:29:45.573】【ERROR】  数据库错误！ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.573】【ERROR】  数据库执行错误！(select count(*) from sysobjects where id = object_id('dbo.t_user')) ==> ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.573】【ERROR】  数据库错误！ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.573】【ERROR】  数据库执行错误！(select count(*) from sysobjects where id = object_id('dbo.t_room')) ==> ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.573】【ERROR】  数据库错误！ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.574】【ERROR】  数据库错误！ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.574】【ERROR】  数据库执行错误！(select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')) ==> ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.574】【ERROR】  数据库错误！ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.574】【ERROR】  数据库执行错误！(select count(*) from sysobjects where id = object_id('dbo.t_code')) ==> ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.574】【ERROR】  数据库执行错误！(select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')) ==> ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.574】【ERROR】  数据库执行错误！(select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')) ==> ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.574】【ERROR】  数据库错误！ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.574】【INFO】   数据库连接成功！
+【2022-09-30 21:29:45.574】【INFO】   数据库连接成功！
+【2022-09-30 21:29:45.574】【INFO】   数据库连接成功！
+【2022-09-30 21:29:45.574】【INFO】   数据库连接成功！
+【2022-09-30 21:29:45.574】【ERROR】  数据库错误！ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.574】【INFO】   数据库连接成功！
+【2022-09-30 21:29:45.575】【INFO】   数据库连接成功！
+【2022-09-30 21:29:45.575】【ERROR】  数据库执行错误！(select count(*) from sysobjects where id = object_id('dbo.t_musicBlackList')) ==> ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.575】【ERROR】  数据库错误！ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.575】【ERROR】  数据库执行错误！(select count(*) from sysobjects where id = object_id('dbo.t_historyMsg')) ==> ConnectionError: 用户 'sa' 登录失败。
+【2022-09-30 21:29:45.575】【INFO】   数据库连接成功！
+【2022-09-30 21:29:45.575】【INFO】   数据库连接成功！
+【2022-09-30 21:29:47.847】【INFO】   DB_config 配置文件读取成功！
+【2022-09-30 21:29:50.926】【INFO】   DB_config 配置文件读取成功！

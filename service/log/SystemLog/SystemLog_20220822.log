@@ -1,0 +1,49 @@
+【2022-08-22 12:49:05.396】【INFO】   DB_config 配置文件读取成功！
+【2022-08-22 12:49:05.398】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-22 12:49:10.398】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-22 12:49:15.402】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-22 12:49:20.403】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-22 12:49:25.406】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-22 12:49:30.434】【INFO】   数据库连接成功！
+【2022-08-22 12:49:30.476】【INFO】   t_code 表已存在！
+【2022-08-22 12:49:30.482】【INFO】   t_LikeMusic 表已存在！
+【2022-08-22 12:49:30.482】【INFO】   t_HotMusic 表已存在！
+【2022-08-22 12:49:30.482】【INFO】   t_user 表已存在！
+【2022-08-22 12:49:30.482】【INFO】   t_MusicQueue 表已存在！
+【2022-08-22 12:49:30.483】【INFO】   t_room 表已存在！
+【2022-08-22 13:16:41.559】【INFO】   DB_config 配置文件读取成功！
+【2022-08-22 13:16:41.601】【INFO】   数据库连接成功！
+【2022-08-22 13:16:41.655】【INFO】   t_room 表已存在！
+【2022-08-22 13:16:41.655】【INFO】   t_user 表已存在！
+【2022-08-22 13:16:41.655】【INFO】   t_code 表已存在！
+【2022-08-22 13:16:41.655】【INFO】   t_HotMusic 表已存在！
+【2022-08-22 13:16:41.655】【INFO】   t_MusicQueue 表已存在！
+【2022-08-22 13:16:41.656】【INFO】   t_LikeMusic 表已存在！
+【2022-08-22 13:16:41.661】【INFO】   musicBlackList 数据表创建成功！
+【2022-08-22 13:17:42.252】【INFO】   DB_config 配置文件读取成功！
+【2022-08-22 13:17:42.281】【INFO】   数据库连接成功！
+【2022-08-22 13:17:42.331】【INFO】   t_user 表已存在！
+【2022-08-22 13:17:42.331】【INFO】   t_room 表已存在！
+【2022-08-22 13:17:42.331】【INFO】   t_HotMusic 表已存在！
+【2022-08-22 13:17:42.331】【INFO】   t_code 表已存在！
+【2022-08-22 13:17:42.331】【INFO】   t_MusicQueue 表已存在！
+【2022-08-22 13:17:42.331】【INFO】   t_LikeMusic 表已存在！
+【2022-08-22 13:17:42.332】【INFO】   musicBlackList 表已存在！
+【2022-08-22 16:42:04.372】【INFO】   DB_config 配置文件读取成功！
+【2022-08-22 16:42:04.413】【INFO】   数据库连接成功！
+【2022-08-22 16:42:04.468】【INFO】   t_room 表已存在！
+【2022-08-22 16:42:04.469】【INFO】   t_code 表已存在！
+【2022-08-22 16:42:04.468】【INFO】   t_user 表已存在！
+【2022-08-22 16:42:04.469】【INFO】   t_HotMusic 表已存在！
+【2022-08-22 16:42:04.469】【INFO】   t_MusicQueue 表已存在！
+【2022-08-22 16:42:04.469】【INFO】   t_LikeMusic 表已存在！
+【2022-08-22 16:42:04.479】【INFO】   t_musicBlackList 数据表创建成功！
+【2022-08-22 18:54:41.558】【INFO】   DB_config 配置文件读取成功！
+【2022-08-22 18:54:41.582】【INFO】   数据库连接成功！
+【2022-08-22 18:54:41.615】【INFO】   t_code 表已存在！
+【2022-08-22 18:54:41.615】【INFO】   t_MusicQueue 表已存在！
+【2022-08-22 18:54:41.615】【INFO】   t_user 表已存在！
+【2022-08-22 18:54:41.615】【INFO】   t_HotMusic 表已存在！
+【2022-08-22 18:54:41.615】【INFO】   t_room 表已存在！
+【2022-08-22 18:54:41.615】【INFO】   t_LikeMusic 表已存在！
+【2022-08-22 18:54:41.615】【INFO】   t_musicBlackList 表已存在！

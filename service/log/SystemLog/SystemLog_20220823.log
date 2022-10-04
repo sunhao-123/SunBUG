@@ -1,0 +1,20 @@
+【2022-08-23 08:36:44.884】【INFO】   DB_config 配置文件读取成功！
+【2022-08-23 08:36:44.918】【INFO】   数据库连接成功！
+【2022-08-23 08:36:44.956】【INFO】   t_MusicQueue 表已存在！
+【2022-08-23 08:36:44.957】【INFO】   t_code 表已存在！
+【2022-08-23 08:36:44.957】【INFO】   t_user 表已存在！
+【2022-08-23 08:36:44.957】【INFO】   t_HotMusic 表已存在！
+【2022-08-23 08:36:44.957】【INFO】   t_LikeMusic 表已存在！
+【2022-08-23 08:36:44.957】【INFO】   t_musicBlackList 表已存在！
+【2022-08-23 08:36:44.957】【INFO】   t_room 表已存在！
+【2022-08-23 09:17:49.546】【ERROR】  数据库执行错误！(SELECT TOP 1 * FROM dbo.t_room WHERE ID = 'undefined') ==> RequestError: Conversion failed when converting the varchar value 'undefined' to data type int.
+【2022-08-23 09:17:54.069】【ERROR】  数据库执行错误！(SELECT TOP 1 * FROM dbo.t_room WHERE ID = 'undefined') ==> RequestError: Conversion failed when converting the varchar value 'undefined' to data type int.
+【2022-08-23 09:41:12.683】【INFO】   DB_config 配置文件读取成功！
+【2022-08-23 09:41:12.710】【INFO】   数据库连接成功！
+【2022-08-23 09:41:12.751】【INFO】   t_user 表已存在！
+【2022-08-23 09:41:12.751】【INFO】   t_code 表已存在！
+【2022-08-23 09:41:12.751】【INFO】   t_HotMusic 表已存在！
+【2022-08-23 09:41:12.751】【INFO】   t_MusicQueue 表已存在！
+【2022-08-23 09:41:12.751】【INFO】   t_room 表已存在！
+【2022-08-23 09:41:12.751】【INFO】   t_musicBlackList 表已存在！
+【2022-08-23 09:41:12.751】【INFO】   t_LikeMusic 表已存在！

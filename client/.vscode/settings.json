@@ -1,0 +1,5 @@
+{
+    "vetur.experimental.templateInterpolationService": true,
+    "vetur.validation.template": false,
+    "vetur.validation.interpolation": false
+}

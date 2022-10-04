@@ -1,0 +1,16 @@
+{
+    "user": "your userName",
+    "password": "your password",
+    "server": "your IpAddress",
+    "port": your port,
+    "database": "your database",
+    "pool": {
+        "max": 10,
+        "min": 0,
+        "idleTimeoutMillis": 9999999999
+    },
+    "options": {
+        "encrypt": false,
+        "enableArithAbort": true
+    }
+}

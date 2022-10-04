@@ -1,0 +1,138 @@
+【2022-09-04 19:08:36.958】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_user')
+【2022-09-04 19:08:36.958】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_room')
+【2022-09-04 19:08:36.958】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_code')
+【2022-09-04 19:08:36.958】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')
+【2022-09-04 19:08:36.958】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')
+【2022-09-04 19:08:36.958】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_musicBlackList')
+【2022-09-04 19:08:36.958】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_historyMsg')
+【2022-09-04 19:08:36.958】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')
+【2022-09-04 19:08:36.993】【SQL】 create table dbo.t_historyMsg(ID            int              not null    identity(1,1)    primary key,content       nvarchar(200)    not null,message_time  nvarchar(100)    not null,message_type  nvarchar(20)     not null,message_user  nvarchar(20)     not null,qout          nvarchar(200)        null,room          nvarchar(20)     not null)
+【2022-09-04 19:09:00.741】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_room')
+【2022-09-04 19:09:00.741】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_user')
+【2022-09-04 19:09:00.741】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_HotMusic')
+【2022-09-04 19:09:00.741】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_code')
+【2022-09-04 19:09:00.741】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_LikeMusic')
+【2022-09-04 19:09:00.741】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_MusicQueue')
+【2022-09-04 19:09:00.741】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_historyMsg')
+【2022-09-04 19:09:00.741】【SQL】 select count(*) from sysobjects where id = object_id('dbo.t_musicBlackList')
+【2022-09-04 19:10:17.836】【SQL】 SELECT * FROM dbo.t_user WHERE username = '孙同学'
+【2022-09-04 19:10:17.979】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:10:18.003】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:10:18.037】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:10:18.047】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:10:18.047】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:10:18.056】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:10:18.057】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:10:18.057】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:13:22.684】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:13:22.697】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:13:22.714】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:13:22.723】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:13:22.723】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:13:22.723】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:13:22.732】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:13:22.733】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:23:58.793】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:23:58.806】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:23:58.818】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:23:58.831】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:23:58.832】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:23:58.832】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:23:58.834】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:23:58.834】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:27:57.011】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:27:57.023】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:27:57.039】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:27:57.043】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:27:57.046】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:27:57.049】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:27:57.049】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:27:57.052】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:28:16.241】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:28:16.256】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:28:16.272】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:28:16.279】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:28:16.287】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:28:16.287】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:28:16.289】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:28:16.289】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:30:39.908】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:30:39.920】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:30:39.936】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:30:39.947】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:30:39.947】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:30:39.952】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:30:39.952】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:30:39.952】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:32:23.941】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:32:24.001】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:32:24.029】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:32:24.038】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:32:24.038】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:32:24.042】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:32:24.042】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:32:24.044】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:33:32.654】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:33:32.666】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:33:32.691】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:33:32.701】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:33:32.706】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:33:32.706】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:33:32.706】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:33:32.709】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:34:24.431】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:34:24.457】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:34:24.542】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:34:24.556】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:34:24.556】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:34:24.564】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:34:24.564】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:34:24.569】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:34:50.124】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:34:50.136】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:34:50.156】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:34:50.165】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:34:50.168】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:34:50.168】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:34:50.169】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:34:50.173】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:35:31.479】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:35:31.492】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:35:31.510】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:35:31.519】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:35:31.519】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:35:31.520】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:35:31.524】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:35:31.524】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:38:25.232】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:38:25.253】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:38:25.276】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:38:25.280】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:38:25.288】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:38:25.288】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:38:25.292】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:38:25.292】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:38:36.115】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:38:36.127】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:38:36.148】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:38:36.156】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:38:36.159】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:38:36.159】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:38:36.162】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:38:36.165】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:39:17.940】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:39:17.962】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:39:17.985】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:39:17.991】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:39:17.994】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:39:17.994】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:39:17.996】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:39:18.000】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'
+【2022-09-04 19:40:07.974】【SQL】 SELECT TOP 1 * FROM dbo.t_room WHERE ID = '888'
+【2022-09-04 19:40:07.988】【SQL】 SELECT username, head, sex, signature, roomID FROM dbo.t_user WHERE "UID" = '2'
+【2022-09-04 19:40:08.010】【SQL】 SELECT username, UID, head FROM dbo.t_user
+【2022-09-04 19:40:08.015】【SQL】 SELECT * FROM dbo.t_historyMsg WHERE room = '888'
+【2022-09-04 19:40:08.023】【SQL】 SELECT TOP 9 * FROM dbo.t_room WHERE ID != '888' AND ID != '888' ORDER BY newid()
+【2022-09-04 19:40:08.025】【SQL】 SELECT * FROM dbo.t_LikeMusic WHERE userID = '2' ORDER BY timestamp DESC
+【2022-09-04 19:40:08.025】【SQL】 SELECT * FROM dbo.t_MusicQueue WHERE roomID = '888' AND already = 'false' ORDER BY updateTime
+【2022-09-04 19:40:08.030】【SQL】 SELECT * FROM dbo.t_musicBlackList WHERE room = '888'

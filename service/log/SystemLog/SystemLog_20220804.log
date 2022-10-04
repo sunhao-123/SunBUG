@@ -1,0 +1,42 @@
+【2022-08-04 16:01:46.759】【INFO】   DB_config 配置文件读取成功！
+【2022-08-04 16:01:46.761】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-04 16:01:51.777】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-04 16:01:56.792】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-04 16:02:01.802】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-04 16:02:04.644】【ERROR】  数据库执行错误！(SELECT * FROM dbo.t_user WHERE username = 'admin') ==> RequestError: No connection is specified for that request.
+【2022-08-04 16:02:06.814】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-04 16:02:11.836】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-04 16:02:16.856】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-04 16:02:21.867】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-04 16:02:26.887】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-04 16:02:31.906】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-04 16:02:36.921】【ERROR】  数据库连接失败！ConnectionError: Failed to connect to 127.0.0.1:1433 - Could not connect (sequence)
+【2022-08-04 16:02:41.947】【INFO】   数据库连接成功！
+【2022-08-04 16:02:41.976】【INFO】   t_user 表已存在！
+【2022-08-04 16:02:41.976】【INFO】   t_MusicQueue 表已存在！
+【2022-08-04 16:02:41.976】【INFO】   t_LikeMusic 表已存在！
+【2022-08-04 16:02:41.976】【INFO】   t_HotMusic 表已存在！
+【2022-08-04 20:01:56.647】【INFO】   DB_config 配置文件读取成功！
+【2022-08-04 20:01:56.671】【INFO】   数据库连接成功！
+【2022-08-04 20:01:56.699】【INFO】   t_MusicQueue 表已存在！
+【2022-08-04 20:01:56.699】【INFO】   t_HotMusic 表已存在！
+【2022-08-04 20:01:56.699】【INFO】   t_user 表已存在！
+【2022-08-04 20:01:56.699】【INFO】   t_LikeMusic 表已存在！
+【2022-08-04 20:38:00.051】【INFO】   DB_config 配置文件读取成功！
+【2022-08-04 20:38:00.074】【INFO】   数据库连接成功！
+【2022-08-04 20:38:00.101】【INFO】   t_user 表已存在！
+【2022-08-04 20:38:00.101】【INFO】   t_HotMusic 表已存在！
+【2022-08-04 20:38:00.101】【INFO】   t_MusicQueue 表已存在！
+【2022-08-04 20:38:00.101】【INFO】   t_LikeMusic 表已存在！
+【2022-08-04 20:40:17.901】【INFO】   DB_config 配置文件读取成功！
+【2022-08-04 20:40:17.925】【INFO】   数据库连接成功！
+【2022-08-04 20:40:17.947】【INFO】   t_user 表已存在！
+【2022-08-04 20:40:17.947】【INFO】   t_HotMusic 表已存在！
+【2022-08-04 20:40:17.947】【INFO】   t_LikeMusic 表已存在！
+【2022-08-04 20:40:17.947】【INFO】   t_MusicQueue 表已存在！
+【2022-08-04 20:46:32.238】【INFO】   DB_config 配置文件读取成功！
+【2022-08-04 20:46:32.265】【INFO】   数据库连接成功！
+【2022-08-04 20:46:32.288】【INFO】   t_user 表已存在！
+【2022-08-04 20:46:32.288】【INFO】   t_MusicQueue 表已存在！
+【2022-08-04 20:46:32.288】【INFO】   t_HotMusic 表已存在！
+【2022-08-04 20:46:32.288】【INFO】   t_LikeMusic 表已存在！
