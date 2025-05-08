@@ -1,4 +1,4 @@
-# SunBUG 音乐聊天室
+# SunBUG 音乐聊天室（项目凉凉 所有API均已挂掉。。。。）
 
 SunBUG 音乐聊天室，是原 BBBUG 音乐聊天室的 Cpoy 版本，功能及界面几乎相同，致敬Hamm大佬~~~
 
